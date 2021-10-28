@@ -18,15 +18,15 @@ function digiClock() {
   /*m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s; */
 
-  var time = `<span id='timeStr'>${h
+  let time = `<span id='timeStr'>${h
     .toString()
     .padStart(2, 0)} : ${m} : ${s}</span><span id="sesson"> ${sesson}</span>`;
 
   document.getElementById("Time").innerHTML = time;
 
-  var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-  var months = [
+  let months = [
     "January",
     "February",
     "March",
@@ -41,12 +41,12 @@ function digiClock() {
     "December",
   ];
 
-  var today = new Date();
-  var curWeekDay = days[today.getDay()];
-  var curDay = today.getDate();
-  var curMonth = months[today.getMonth()];
-  var curYear = today.getFullYear();
-  var date =
+  let today = new Date();
+  let curWeekDay = days[today.getDay()];
+  let curDay = today.getDate();
+  let curMonth = months[today.getMonth()];
+  let curYear = today.getFullYear();
+  date =
     "<br></br>" +
     curWeekDay +
     "," +
