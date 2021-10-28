@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 600px;
+  border: 25px solid #3edbf0;
+  border-radius: 40%;
+  padding: 2px;
+}
+.clock {
+  color: blanchedalmond;
+  font-family: fantasy;
+  font-size: 60px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#timeStr {
+  width: 250px;
+  min-width: 180px;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+#sesson {
+  font-size: 30px;
+  padding-top: 30px;
+}
+.calc {
+  color: #ffd523;
+  font-size: 27px;
+}
